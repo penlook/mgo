@@ -2,8 +2,8 @@ package txn_test
 
 import (
 	"bytes"
-	"gopkg.in/mgo.v2"
-	. "gopkg.in/check.v1"
+	. "github.com/penlook/check"
+	"github.com/penlook/mgo"
 	"os/exec"
 	"time"
 )

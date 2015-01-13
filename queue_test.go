@@ -27,7 +27,7 @@
 package mgo
 
 import (
-	. "gopkg.in/check.v1"
+	. "github.com/penlook/check"
 )
 
 type QS struct{}

@@ -34,8 +34,8 @@ import (
 	"fmt"
 	"sync"
 
-	"gopkg.in/mgo.v2/bson"
-	"gopkg.in/mgo.v2/internal/scram"
+	"github.com/penlook/mgo/bson"
+	"github.com/penlook/mgo/internal/scram"
 )
 
 type authCmd struct {
@@ -361,8 +361,8 @@ func saslNewScram(cred Credential) *saslScram {
 }
 
 type saslScram struct {
-	cred           Credential
-	client         *scram.Client
+	cred   Credential
+	client *scram.Client
 }
 
 func (s *saslScram) Close() {}

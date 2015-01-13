@@ -37,9 +37,9 @@ import (
 	"strings"
 	"time"
 
-	. "gopkg.in/check.v1"
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
+	. "github.com/penlook/check"
+	"github.com/penlook/mgo"
+	"github.com/penlook/mgo/bson"
 )
 
 func (s *S) TestRunString(c *C) {

@@ -3,7 +3,7 @@ package txn
 import (
 	"sort"
 
-	. "gopkg.in/check.v1"
+	. "github.com/penlook/check"
 )
 
 type DocKeySuite struct{}

@@ -36,8 +36,8 @@ import (
 	"testing"
 	"time"
 
-	. "gopkg.in/check.v1"
-	"gopkg.in/mgo.v2/bson"
+	. "github.com/penlook/check"
+	"github.com/penlook/mgo/bson"
 )
 
 func TestAll(t *testing.T) {

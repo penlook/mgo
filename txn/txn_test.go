@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	. "gopkg.in/check.v1"
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
-	"gopkg.in/mgo.v2/txn"
+	. "github.com/penlook/check"
+	"github.com/penlook/mgo"
+	"github.com/penlook/mgo/bson"
+	"github.com/penlook/mgo/txn"
 )
 
 func TestAll(t *testing.T) {

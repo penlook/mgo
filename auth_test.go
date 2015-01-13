@@ -38,8 +38,8 @@ import (
 	"sync"
 	"time"
 
-	. "gopkg.in/check.v1"
-	"gopkg.in/mgo.v2"
+	. "github.com/penlook/check"
+	"github.com/penlook/mgo"
 )
 
 func (s *S) TestAuthLoginDatabase(c *C) {
@@ -1021,7 +1021,6 @@ var (
 
 	winKerberosPasswordEnv = "MGO_KERBEROS_PASSWORD"
 )
-
 
 // Kerberos has its own suite because it talks to a remote server
 // that is prepared to authenticate against a kerberos deployment.

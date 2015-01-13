@@ -4,8 +4,8 @@ import (
 	"crypto/sha1"
 	"testing"
 
-	. "gopkg.in/check.v1"
-	"gopkg.in/mgo.v2/internal/scram"
+	. "github.com/penlook/check"
+	"github.com/penlook/mgo/internal/scram"
 	"strings"
 )
 
